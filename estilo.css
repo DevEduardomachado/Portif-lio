@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#3a465c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: auto;
+}
+ /*layout pagindas*/
+
+ #topo, #rodape{
+    
+    background-image: url(imagens/capa3.png);
+    height: 300px;
+    text-align: center;
+
+ }
+
+#formulario{
+   background-color: bisque;
+   border-radius: 10px 10px 10px 10px;
+   width: 50%;
+   height: 400px;
+   margin: 1% auto;
+}
+
+#cadastro{
+   margin-top: 10%;
+}
+
+ a{
+    background-color: #3a465c;
+    border-radius:30px 30px 30px 30px;
+    padding: 2%;
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+ }
+ #topomenu{
+    padding: 5%;
+ }
+#conteudo1{
+   background-image: url(imagens/conteudo1.png);
+   width: 100%;
+   height: 500px;
+}
+
+#conteudo2{
+   background-image: url(imagens/conteudo2.png);
+   width: 100%;
+   height: 500px;
+}
+
+#imagem1{
+   width: auto;
+}
+#imagem2{
+   width: auto;
+}
+ /*formatação textos*/
+ h2{
+   background-color:#78866b;
+   border-radius: 10px 10px 10px 10px;
+ }
+
+ a:hover{
+    background-color: #78866b;
+    color: antiquewhite;
+ }
+
+ h1{
+   padding: 1%;
+   color: #3a465c;
+}
+p{
+   color: #3a465c;
+   font-size: 20px;
+}
+.cor1{
+   color:#78866b ;
+}
